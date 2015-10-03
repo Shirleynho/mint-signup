@@ -1,0 +1,196 @@
+body {
+	font-family: Helvetica, arial, sans-serif;
+}
+
+/***************************
+NAV BAR
+****************************/
+header {
+	width: 690px;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+}
+
+.logo {
+	float: left;
+	margin: 1px;
+	height: 40px;
+}
+
+header .nav {
+	float: right;
+	display: inline;
+	position: relative;
+	top: 20px;
+	font-size: 14px;
+}
+
+/***************************
+INPUT FIELD
+****************************/
+
+.container {
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+	clear: both;
+	margin-bottom: 50px;
+	width: 590px;
+	height: 656px;
+	border-radius: 2px;
+	padding: 43px 50px 50px 50px;
+	-webkit-box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
+	   -moz-box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
+			box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	font-size: 30px;
+	font-color: #000;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+fieldset {
+	border-right: 1px solid #ccc;
+	width: 350px;
+	float: left;
+}
+
+input, 
+select {
+	display: block;
+	width: 260px;
+	height: 24px;
+	margin-bottom: 30px; 
+	margin-top: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #666;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+			box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#zipcode {
+	width: 74px;
+}
+
+.terms {
+	font-size: 15px;
+	position: relative;
+	top: -10px;
+}
+
+#checkbox {
+	display: inline;
+	width: 18px;
+	position: relative;
+	left: -4px;
+	vertical-align: bottom;
+	margin-bottom: 0px;
+	margin-right: 2px
+}
+
+.terms a {
+	color: blue;
+	font-size: 15px;
+}
+
+/***************************
+BUTTON
+****************************/
+.button {
+	background-color: #45cae6;
+	color: #fff;
+	text-transform: uppercase;
+	height: 40px;
+	width: 100px;
+	border: 0;
+}
+
+.button:hover{
+	text-decoration: none; 
+	cursor: pointer;
+ 	background-color: #226573;
+ }
+
+/***************************
+SIDE BAR
+****************************/
+
+aside {
+	width: 200px;
+	float: right;
+	position: relative;
+	left: 18px;
+	background-color: #ccc; 
+	color: #666;
+	overflow: visible;
+	padding: 15px;
+}
+
+aside h1 {
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 10px;
+	text-align: center; 
+
+}
+
+.sidebar {
+	width: 180px;
+	position: relative;
+	left: 15px;
+}
+
+.sidebar li {
+	list-style: disc;
+	font-size: 11px;
+	margin-bottom: 4px;
+}
+
+/***************************
+FOOTER
+****************************/
+
+footer {
+	margin: 0 auto; 
+	position: relative;
+	top: 50px;
+	width: 690px;
+	height: 200px;
+}
+
+.footer-nav {
+	text-align: center;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 0 10px;
+	border-right: 1px solid #ccc;
+}
+
+.nav li:last-child {
+	border-right: 0px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 13px;
+	cursor: pointer; 
+}
+
+a:hover {
+	text-decoration: underline; 
+}
+
+a:visited {
+	color: #666; 
+}
+
+
+

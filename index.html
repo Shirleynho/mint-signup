@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mint > Start Here</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="stylesheets/reset.css">	 
+	<link rel="stylesheet" href="stylesheets/stylesheet.css">
+</head>
+
+<body>
+	<header>
+		<img class="logo" src="assets/mintcom.png">
+		<nav class="nav">
+			<ul>
+				<li><b>Sign up</b></li>
+				<li>Log in</li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<h1>Create a new account</h1>
+		<fieldset>
+			<label>
+				Your Email
+				<input type="email" name="email" required>
+			</label>
+			<label>
+				Confirm Email
+				<input type="email" name="confirm-email" required>
+			</label>
+			<label>
+				Country
+				<select name="Country" required>
+					<option value="United-States" selected>United States</option>
+					<option value="Canada">Canada</option>
+				</select>
+			</label>
+			<label>
+				Zip Code
+				<input id="zipcode" type="text" name="zip-code" maxlength="5" required>
+			</label>
+			<label>
+				Password
+				<input type="password" name="password" required>
+			</label>
+			<label>
+				Confirm Password
+				<input type="password" name=" confirm-password" required>
+			</label>
+			<label class="terms">				
+				<input id="checkbox" type="checkbox" name="terms">Yes, I agree to the Mint <a href="#">Terms of Use</a>.
+			</label>
+
+		<input class="button" type="submit" name="signup" value="Sign Up">
+
+		</fieldset>
+
+		<aside>
+			<h1>Why you'll love it</h1>
+			<ul class="sidebar">
+				<li>See all your accounts in one place</li>
+				<li>Set a budget and pay down your debt</li>
+				<li>Find teh best ways to grow your money</li>
+				<li>Stay safe and secure</li>
+			</ul>
+		</aside>
+	</div>
+	<footer>
+		<nav class="footer-nav">
+			<ul class="nav">
+				<li><a href="#">Support Community</a></li>
+				<li><a href="#">Terms of Use</a></li>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Legal and Trademark Notices</a></li>
+				<li><a href="#">About Intuit</a></li>
+			</ul>
+		</nav>
+
+	</footer>
+</body>
+</html>
